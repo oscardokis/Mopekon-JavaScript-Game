@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@300&display=swap');
+body{
+    font-family: 'Bungee', cursive;
+    background-image: radial-gradient(circle, #FDEEDC, #FFD8A9);
+}
+
+#seleccionar-mascota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    width: 100%;
+    height: 100psx;
+    color: black;
+
+    font-size: 60px;
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subtitulo{
+    height: 40px;
+
+    font-size: 28px;
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjetass{
+    display: flex;
+    gap: 60px;
+}
+
+.tarjeta-de-mokepon{
+    height: 300px;
+    width: 400px;
+
+    padding: 10px;
+    margin: 1px;
+    border-radius:10%;
+
+    
+    background-image: radial-gradient(circle, #D7C0AE, #967E76);
+    
+    font-size: 26px;
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.tarjeta-de-mokepon img{
+    width: 230px;
+}
+input{
+    display: none;
+}
+#boton-mascota{
+    height: 70px;
+    width: 250px;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: transparent;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 65px;
+}
+#boton-mascota:hover{
+    height: 70px;
+    width: 250px;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: transparent;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 65px;
+    background-image: radial-gradient(circle, #D7C0AE, #967E76);
+  }
+#seleccionar-ataque{
+    flex-direction: column;
+    align-items: center;
+}
+.boton-de-ataque{
+    height: 70px;
+    width: 250px;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: transparent;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 65px;
+}
+.boton-de-ataque:hover{
+    height: 70px;
+    width: 250px;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: transparent;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 65px;
+    background-image: radial-gradient(circle, #5ccb5f, #006414);
+}
